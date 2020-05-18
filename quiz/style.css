@@ -1,0 +1,32 @@
+body{
+  background-color: #DDBC95;
+  color: #555;
+  font-size: 16px;
+  padding: 50px;
+  text-align: center;
+}
+.white_box{
+  background: #fff;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 20px;
+  width: 50%;
+}
+.result_box {
+  background: #fff;
+  border: double 5px #ddd;
+  font-size: 20px;
+  font-weight: bold;
+}
+button{
+  border: solid 2px #B38867;
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 16px;
+  width: 100%;
+}
+button:hover {
+  background: #B38867;
+  color: white;
+}
