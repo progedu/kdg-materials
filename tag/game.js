@@ -46,7 +46,7 @@ function draw(){
 
   for(var i = 0; i < 3; i ++){
     var enemy = new Image();
-    var enemyPath = "image/enemy" + (i + 1) + ".png"
+    var enemyPath = "image/enemy" + (i + 1) + ".png";
     enemy.src = enemyPath;
     ctx.drawImage(enemy, enemyX[i], enemyY[i], 100, 100);
 
@@ -75,7 +75,7 @@ function draw(){
 
   for(var i = 0; i < 3; i ++){
     var item = new Image();
-    var itemPath = "image/item" + (i + 1) + ".png"
+    var itemPath = "image/item" + (i + 1) + ".png";
     item.src = itemPath;
     ctx.drawImage(item, itemX[i], itemY[i], 50, 50);
     if(count % 500 == 0){
