@@ -7,23 +7,21 @@
     <script src="quiz.js"></script>
   </head>
   <body onload="set();">
-    <!--背面の白い枠-->
+    <!--白い枠の領域-->
     <div class="white_box">
-      <!--問題番号を表示するための領域-->
-      <p id="order"></p>
-      <!--問題を表示するための領域-->
-      <p id="question"></p>
-      <!--選択肢を表示するための領域-->
-      <div>
+      <!--問題番号を表示する領域-->
+      <p class="order" id="order"></p>
+      <!--問題を表示する領域-->
+      <p class="question" id="question"></p>
+      <!--選択肢を表示する領域-->
+      <div class="answer">
         <button type="button" class="button" id="answer1" onClick="judge(1);"></button>
         <button type="button" class="button" id="answer2" onClick="judge(2);"></button>
         <button type="button" class="button" id="answer3" onClick="judge(3);"></button>
         <button type="button" class="button" id="answer4" onClick="judge(4);"></button>
       </div>
-      <!--判定を囲む枠-->
-      <div class = "result_box">
-        <!--判定を表示するための領域-->
-        <p id="result"></p>
+      <!--正誤判定を表示する領域-->
+      <div class = "result" id="result">
       </div>
     </div>
   </body>
