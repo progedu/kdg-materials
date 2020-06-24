@@ -5,8 +5,8 @@ body{
   padding: 50px;
   text-align: center;
 }
-.white_box{
-  background: #fff;
+.white-box{
+  background: #FFFFFF;
   border-radius: 10px;
   display: inline-block;
   padding: 20px;
@@ -17,7 +17,7 @@ div{
 }
 button{
   border: solid 2px #B38867;
-  color: #555;
+  color: #555555;
   font-size: 16px;
   margin-bottom: 10px;
   padding: 16px;
@@ -25,5 +25,5 @@ button{
 }
 button:hover {
   background: #B38867;
-  color: white;
+  color: #FFFFFF;
 }
