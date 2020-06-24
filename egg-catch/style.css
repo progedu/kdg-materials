@@ -1,11 +1,11 @@
 body{
   background: #B2DBD5;
-  color: #555;
+  color: #555555;
   text-align: center;
   padding: 20px;
 }
 .white-box{
-  background: #ffffff;
+  background: #FFFFFF;
   width: 850px;
   display: inline-block;
 }
