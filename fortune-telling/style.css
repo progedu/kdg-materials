@@ -1,0 +1,29 @@
+body{
+    background: #F1F3CE;
+    font-size: 40px;
+    text-align: center;
+}
+div{
+    margin: 20px;
+}
+.result{
+    background: #FFFFFF;
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    width: 200px; 
+}
+button{
+    border: none;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 25px;
+    height: 120px;
+    width: 120px; 
+}
+.start{
+    background: #1E656D;
+}
+.stop{
+    background: #F62A00;
+}
