@@ -64,8 +64,8 @@ function draw(){
       enemyY[i] -= tilt * x;
     }
 
-    if(enemyY[i] > playerY - 50 && enemyY[i] < playerY + 50 &&
-       enemyX[i] > playerX - 50 && enemyX[i] < playerX + 50){
+    if(enemyY[i] > playerY - 75 && enemyY[i] < playerY + 75 &&
+       enemyX[i] > playerX - 75 && enemyX[i] < playerX + 75){
         ctx.font = "50px 'ＭＳ ゴシック'";
         ctx.fillStyle = "#EA5549";
         ctx.fillText("GAME OVER...", w / 2 - 150, h / 2);
@@ -82,8 +82,8 @@ function draw(){
       itemX[i] = Math.random() * ( w - 300 ) + 100;
       itemY[i] = Math.random() * ( h - 200 ) + 100;
     }
-    if(itemY[i] > playerY - 25 && itemY[i] < playerY + 50 &&
-       itemX[i] > playerX - 25 && itemX[i] < playerX + 50){
+    if(itemY[i] > playerY - 40 && itemY[i] < playerY + 75 &&
+       itemX[i] > playerX - 40 && itemX[i] < playerX + 75){
         enemyX[i] = enemyInitialX[i];
         enemyY[i] = enemyInitialY[i];
         itemX[i] = -100;
