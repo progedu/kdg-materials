@@ -11,7 +11,7 @@ function game(input){
 
   if(flag == 1 || squares[input.charAt(0)][input.charAt(1)] != ""){
     alert("もうクリックできません！");
-    exit;
+    return;
   }
 
   cell.innerHTML = "◯";
@@ -21,14 +21,14 @@ function game(input){
     var cell1 = squares[win[i][0].charAt(0)][win[i][0].charAt(1)];
     var cell2 = squares[win[i][1].charAt(0)][win[i][1].charAt(1)];
     var cell3 = squares[win[i][2].charAt(0)][win[i][2].charAt(1)];
-    if(cell1 == "◯" && cell2 == "◯" && cell3 =="◯"){
+    if(cell1 == "◯" && cell2 == "◯" && cell3 == "◯"){
       info.innerHTML = "◯の勝ち！";
       flag = 1;
-      exit;
+      return;
     }
     else if(order == 4){
       info.innerHTML = "引き分け！";
-      exit;
+      return;
     }
     else{
       ;
@@ -52,7 +52,7 @@ function game(input){
     if(cell1 == "×" && cell2 == "×" && cell3 =="×"){
       info.innerHTML = "×の勝ち！";
       flag = 1;
-      exit;
+      return;
     }
   }
 
