@@ -10,22 +10,18 @@ function setup() {
 }
 
 function draw() {
-	var size = random(100);
-	var x =  random(windowWidth);
-	var y =  random(windowHeight);
-	var deg = random(-90, 90);
-	translate(x, y);
-	rotate(radians(deg));
-	if(index % 4 != 0){
-		image(momiji, 0, 0, size, size);
-	}
-	else{
-		image(ityou, 0, 0, size, size);
-	}
-	rotate(-1 * deg);
-	translate(-1 * x, -1 * y);
+	var mX =  random(windowWidth);
+	var mY =  random(windowHeight);
+	var mSize =  random(100);
+	var iX =  random(windowWidth);
+	var iY =  random(windowHeight);
+	var iSize =  random(100);
+
+	image(momiji, mX, mY, mSize, mSize);
+	image(ityou, iX, iY, iSize, iSize);
+
 	index += 1;
-	if(index == 150){
+	if(index == 80){
 		noLoop();
 	}
 }
