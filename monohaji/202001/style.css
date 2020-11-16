@@ -1,0 +1,25 @@
+body{
+    background-color: #FFF3B8;
+    padding: 20px;
+    text-align: center;
+}
+.black_box{
+    background: #000000;
+    display: inline-block;
+    width: 50%;
+}
+.white_box{
+    background: #FFFFFF;
+    display: inline-block;
+    margin: 5%;
+    width: 90%;
+}
+.text{
+    display: inline-block;
+    font-family: "STKaiti";
+    font-weight: bold;
+    font-size: 10em;
+    margin: 5%;
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+}
