@@ -42,7 +42,7 @@ function game(input){
       squares[random1][random2] = "×";
       var pc = document.getElementById("" + random1 + random2);
       pc.innerHTML = "×";
-      return;
+      break;
     }
   }
   for(var i = 0; i < win.length; i++){
