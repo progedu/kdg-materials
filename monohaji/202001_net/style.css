@@ -1,0 +1,48 @@
+body{
+    background: #F6E0B1;
+    text-align: center;
+}
+.title{
+    display: block;
+    font-size: 70px;
+    margin: 20px;
+}
+.form{
+    display: block;
+    margin: 20px;
+}
+.form input{
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    width: 20%;
+}
+.form button{
+    background:#CF0010;
+    border: none;
+    color: #FFFFFF;
+    display: inline-block;  
+    font-size: 20px;
+    padding: 10px;
+    width: 20%;
+}
+.black-box{
+    background: #000000;
+    display: inline-block;
+    width: 50%;
+}
+.white-box{
+    background: #FFFFFF;
+    display: inline-block;
+    margin: 5%;
+    width: 90%;
+}
+.text{
+    display: inline-block;
+    font-family: "STKaiti";
+    font-weight: bold;
+    font-size: 150px;
+    margin: 5%;
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+}
