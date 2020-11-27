@@ -3,12 +3,12 @@ body{
     padding: 20px;
     text-align: center;
 }
-.black_box{
+.black-box{
     background: #000000;
     display: inline-block;
     width: 50%;
 }
-.white_box{
+.white-box{
     background: #FFFFFF;
     display: inline-block;
     margin: 5%;
