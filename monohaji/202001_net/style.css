@@ -30,6 +30,7 @@ body{
     background: #000000;
     display: inline-block;
     width: 50%;
+    margin: 20px;
 }
 .white-box{
     background: #FFFFFF;
@@ -45,4 +46,12 @@ body{
     margin: 5%;
     white-space: nowrap;
     writing-mode: vertical-rl;
+}
+.image{
+    display: block;
+    margin: 20px;
+}
+.image img{
+    display: inline-block;
+    width: 10%;
 }
