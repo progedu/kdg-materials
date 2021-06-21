@@ -6,6 +6,7 @@ var quiz = [
 ];
 var counter = 0;
 var score = 0;
+var end = false;
 
 function set(){
   var order = document.getElementById("order");
@@ -20,6 +21,9 @@ function set(){
 }
 
 function judge(num){
+  if(end){
+    return;
+  }
   var result = document.getElementById("result");
   var answer = quiz[counter][5];
   if(answer == num){
@@ -31,6 +35,7 @@ function judge(num){
   }
   if(counter == quiz.length - 1){
     result.innerHTML += quiz.length + "問中" + score + "問正解！";
+    end = true;
   }
   else{
     counter += 1;
